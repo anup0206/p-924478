@@ -27,7 +27,7 @@ const Header = () => {
           href="#home" 
           className="text-xl font-display font-bold"
         >
-          John.dev
+          Anupam.dev
         </a>
 
         {/* Desktop Menu */}

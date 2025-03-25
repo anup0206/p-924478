@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container-custom">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <div className="text-2xl font-display font-bold mb-2">John.dev</div>
+            <div className="text-2xl font-display font-bold mb-2">Anupam.dev</div>
             <p className="text-primary-foreground/70 text-sm">
               Building exceptional digital experiences
             </p>
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             
             <div className="text-sm text-primary-foreground/50 flex items-center gap-1">
-              <span>&copy; {currentYear} John Doe. All rights reserved.</span>
+              <span>&copy; {currentYear} Anupam Baral. All rights reserved.</span>
               <span className="inline-flex items-center">
                 Made with <Heart className="h-3 w-3 mx-1 text-red-400" /> and React
               </span>

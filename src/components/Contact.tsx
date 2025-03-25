@@ -31,8 +31,8 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-1">Email</h4>
-                <a href="mailto:contact@johndoe.dev" className="text-muted-foreground hover:text-foreground transition-colors">
-                  contact@johndoe.dev
+                <a href="mailto:baralanupam111@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
+                  baralanupam111@gmail.com
                 </a>
               </div>
             </div>
@@ -44,7 +44,7 @@ const Contact = () => {
               <div>
                 <h4 className="text-lg font-semibold mb-1">Location</h4>
                 <p className="text-muted-foreground">
-                  San Francisco, CA, United States
+                  Sunwal, Nepal
                 </p>
               </div>
             </div>
@@ -55,8 +55,8 @@ const Contact = () => {
               </div>
               <div>
                 <h4 className="text-lg font-semibold mb-1">Phone</h4>
-                <a href="tel:+11234567890" className="text-muted-foreground hover:text-foreground transition-colors">
-                  +1 (123) 456-7890
+                <a href="tel:+9779767606302" className="text-muted-foreground hover:text-foreground transition-colors">
+                  +977 9767606302
                 </a>
               </div>
             </div>
@@ -73,7 +73,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
-                  placeholder="John Doe"
+                  placeholder="Your Name"
                   className="w-full px-4 py-3 bg-background border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                   required
                 />
@@ -85,7 +85,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  placeholder="john@example.com"
+                  placeholder="your.email@example.com"
                   className="w-full px-4 py-3 bg-background border border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
                   required
                 />
