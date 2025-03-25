@@ -10,14 +10,14 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg">
-              Hello! I'm Anupam Baral, currently pursuing my Bachelor's degree (2023-2027) 
+              Hello! I'm Anupam Baral, currently pursuing my Bachelor's degree (2023 to present) 
               at Butwal Kalika Campus, Butwal, affiliated with Tribhuvan University.
             </p>
             
             <p className="text-lg">
-              I'm passionate about programming and software development. I'm in the early 
-              stages of my journey, learning new technologies and building projects to enhance 
-              my skills.
+              I'm passionate about software development and programming. I'm in the early 
+              stages of my journey, learning various technologies like HTML5, CSS, JavaScript, 
+              Python, C, and Java while building projects to enhance my skills.
             </p>
             
             <p className="text-lg">

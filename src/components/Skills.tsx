@@ -1,6 +1,6 @@
 
 import React, { useRef, useEffect } from 'react';
-import { CheckCircle2, Code2, Database, Globe, Layers, ServerCog } from 'lucide-react';
+import { CheckCircle2, Code2, Globe, Laptop, BookOpen } from 'lucide-react';
 
 interface SkillCategory {
   title: string;
@@ -10,29 +10,24 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    title: "Languages",
+    title: "Programming Languages",
     icon: <Code2 className="h-6 w-6 text-primary" />,
-    skills: ["JavaScript", "TypeScript", "Python", "Java", "HTML", "CSS"]
+    skills: ["HTML5", "CSS", "JavaScript", "Python", "C", "Java"]
   },
   {
-    title: "Frontend",
-    icon: <Layers className="h-6 w-6 text-primary" />,
-    skills: ["React", "Next.js", "Vue.js", "Tailwind CSS", "SASS", "Redux"]
-  },
-  {
-    title: "Backend",
-    icon: <ServerCog className="h-6 w-6 text-primary" />,
-    skills: ["Node.js", "Express", "Django", "Spring Boot", "GraphQL", "REST API"]
-  },
-  {
-    title: "Databases",
-    icon: <Database className="h-6 w-6 text-primary" />,
-    skills: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Redis"]
-  },
-  {
-    title: "DevOps & Tools",
+    title: "Web Development",
     icon: <Globe className="h-6 w-6 text-primary" />,
-    skills: ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack"]
+    skills: ["Responsive Design", "Frontend Development", "Web APIs", "UI/UX Basics"]
+  },
+  {
+    title: "Tools & Technologies",
+    icon: <Laptop className="h-6 w-6 text-primary" />,
+    skills: ["Git", "GitHub", "VS Code", "Command Line", "Chrome DevTools"]
+  },
+  {
+    title: "Learning",
+    icon: <BookOpen className="h-6 w-6 text-primary" />,
+    skills: ["Problem Solving", "Data Structures", "Algorithms", "Object-Oriented Programming"]
   }
 ];
 
@@ -90,8 +85,8 @@ const Skills = () => {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h2 className="heading-lg mb-4">My Skills</h2>
         <p className="subheading mx-auto">
-          I've worked with a variety of technologies and tools throughout my career.
-          Here's an overview of my technical expertise.
+          Here are the technologies and skills I've been learning and working with.
+          I'm constantly expanding my knowledge in these areas.
         </p>
       </div>
       

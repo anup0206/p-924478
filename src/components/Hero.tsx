@@ -13,14 +13,14 @@ const Hero = () => {
       'const developer = {',
       '  name: "Anupam Baral",',
       '  role: "Currently Learning",',
-      '  skills: ["JavaScript", "React", "TypeScript"],',
-      '  education: "Bachelor (2023-2027)",',
-      '  campus: "Butwal Kalika Campus"',
+      '  skills: ["HTML5", "CSS", "JavaScript", "Python", "C", "Java"],',
+      '  education: "Bachelor (2023-Running)",',
+      '  campus: "Butwal Kalika Campus, Butwal"',
       '};',
       '',
-      'function createExperience() {',
+      'function createPortfolio() {',
       '  return developer.skills.map(skill => {',
-      '    return `${skill} expertise`;',
+      '    return `Building with ${skill}`;',
       '  });',
       '}'
     ];
@@ -72,7 +72,7 @@ const Hero = () => {
           
           <p className="subheading mb-8 opacity-0 animate-fade-in animate-delay-200 text-balance">
             I'm passionate about programming and currently pursuing my Bachelor's degree
-            at Butwal Kalika Campus, affiliated with Tribhuvan University.
+            at Butwal Kalika Campus, Butwal, affiliated with Tribhuvan University.
           </p>
           
           <div className="flex flex-wrap gap-4 mb-8 opacity-0 animate-fade-in animate-delay-300">

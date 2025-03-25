@@ -16,29 +16,29 @@ interface Project {
 const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce application with product management, user authentication, and payment processing using Stripe.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
-    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-    liveUrl: "https://project-demo.com",
-    githubUrl: "https://github.com/johndoe/ecommerce"
+    title: "Personal Portfolio",
+    description: "A responsive portfolio website built with modern web technologies to showcase my projects and skills.",
+    technologies: ["HTML5", "CSS", "JavaScript", "React"],
+    imageUrl: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
+    liveUrl: "https://portfolio-demo.com",
+    githubUrl: "https://github.com/anupambaral/portfolio"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "A productivity application for organizing tasks with features like drag and drop, categorization, and real-time updates.",
-    technologies: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
+    title: "Student Management System",
+    description: "A simple system to manage student records, courses, and attendance using Python.",
+    technologies: ["Python", "SQLite", "Object-Oriented Programming"],
     imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
-    liveUrl: "https://task-app-demo.com",
-    githubUrl: "https://github.com/johndoe/task-manager"
+    githubUrl: "https://github.com/anupambaral/student-management"
   },
   {
     id: 3,
-    title: "Portfolio Website",
-    description: "A responsive portfolio website showcasing projects and skills with a modern design and smooth animations.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    imageUrl: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7",
-    githubUrl: "https://github.com/johndoe/portfolio"
+    title: "Weather App",
+    description: "A web application that displays weather information for a given location using a public API.",
+    technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
+    imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+    liveUrl: "https://weather-app-demo.com",
+    githubUrl: "https://github.com/anupambaral/weather-app"
   }
 ];
 
@@ -130,8 +130,8 @@ const Projects = () => {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <h2 className="heading-lg mb-4">My Projects</h2>
         <p className="subheading mx-auto">
-          A collection of projects that showcase my skills and experience.
-          Each project reflects my ability to solve complex problems and work with different technologies.
+          Here are some of the projects I've been working on as I learn and grow.
+          These showcase my skills and progress in software development.
         </p>
       </div>
       
