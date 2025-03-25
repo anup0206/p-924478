@@ -1,6 +1,5 @@
-
 import React, { useEffect, useRef } from 'react';
-import { ArrowDownCircle, GitHub, Linkedin, Mail } from 'lucide-react';
+import { ArrowDownCircle, Github, Linkedin, Mail } from 'lucide-react';
 
 const Hero = () => {
   const codeRef = useRef<HTMLDivElement>(null);
@@ -87,7 +86,7 @@ const Hero = () => {
           <div className="flex gap-6 opacity-0 animate-fade-in animate-delay-400">
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
               className="opacity-70 hover:opacity-100 transition-opacity">
-              <GitHub size={20} />
+              <Github size={20} />
             </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
               className="opacity-70 hover:opacity-100 transition-opacity">
