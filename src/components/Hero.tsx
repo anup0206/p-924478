@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import { ArrowDownCircle, Github, Linkedin, Mail } from 'lucide-react';
 
@@ -10,10 +11,11 @@ const Hero = () => {
     // This simulates typing code animation
     const codeLines = [
       'const developer = {',
-      '  name: "John Doe",',
-      '  role: "Software Engineer",',
+      '  name: "Anupam Baral",',
+      '  role: "Currently Learning",',
       '  skills: ["JavaScript", "React", "TypeScript"],',
-      '  loves: ["Clean Code", "Problem Solving"]',
+      '  education: "Bachelor (2023-2027)",',
+      '  campus: "Butwal Kalika Campus"',
       '};',
       '',
       'function createExperience() {',
@@ -60,18 +62,17 @@ const Hero = () => {
         <div className="order-2 md:order-1">
           <div className="opacity-0 animate-fade-in">
             <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
-              Software Engineer
+              Currently Learning
             </div>
           </div>
           
           <h1 className="heading-xl mb-4 opacity-0 animate-fade-in animate-delay-100 text-balance">
-            Hello, I'm <span className="text-primary">John Doe</span>
+            Hello, I'm <span className="text-primary">Anupam Baral</span>
           </h1>
           
           <p className="subheading mb-8 opacity-0 animate-fade-in animate-delay-200 text-balance">
-            I build exceptional digital experiences with clean, efficient code. 
-            Specializing in full-stack development and creating beautiful, 
-            functional applications.
+            I'm passionate about programming and currently pursuing my Bachelor's degree
+            at Butwal Kalika Campus, affiliated with Tribhuvan University.
           </p>
           
           <div className="flex flex-wrap gap-4 mb-8 opacity-0 animate-fade-in animate-delay-300">
@@ -92,7 +93,7 @@ const Hero = () => {
               className="opacity-70 hover:opacity-100 transition-opacity">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:contact@johndoe.dev" 
+            <a href="mailto:contact@anupambaral.dev" 
               className="opacity-70 hover:opacity-100 transition-opacity">
               <Mail size={20} />
             </a>
